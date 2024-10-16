@@ -86,6 +86,12 @@ Hooks 🎯
   const { user, login, logout } = useAuth();
 ```
 
+Async/Await
+==
+Used to handle state management asynchronously in the MVC
+
+![image](https://github.com/user-attachments/assets/78941526-9606-455f-bad5-9e0d7cdc0108)
+
 
 ## 4. Design Patterns⚗
 
