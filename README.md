@@ -1,11 +1,11 @@
-# BankingSystem
+# BankingSystem💻📈
 Banking Management System made for Experian's Workshop
 **(Sept 2024)**
-## 1. Project Overview
+## 1. Project Overview🏆
 
 BankingSystem is a React-based web application built with TypeScript. It provides a user interface for a banking system, allowing users to view their account information, make transactions, and manage their finances. The app features Auth functionalities.
-## 2. Libraries and Technologies
-```
+## 2. Libraries and Technologies📚⚛️
+```typescript
 npm start
 npm i react-redux
 ```
@@ -14,6 +14,7 @@ npm i react-redux
 
 - React: A JavaScript library for building user interfaces
 - TypeScript: A typed superset of JavaScript
+- React-Router-dom: Router library used to handle navigation
 - Redux: A state management library for React applications
 - React Router: For handling routing in the application
 - Axios: A promise-based HTTP client for making API requests
@@ -22,7 +23,7 @@ npm i react-redux
 - React Hook Form: A library for flexible and efficient form handling
 - Yup: A JavaScript schema validation library
 
-  ## 3. Project Structure
+  ## 3. Project Structure🏛️📐
 
 The project follows a modular structure with components, pages, and utility functions organized into separate directories. Here's an overview of the main directories:
 
@@ -38,7 +39,7 @@ The project follows a modular structure with components, pages, and utility func
 └──hooks/
 ```
 
-Design
+Design 🖼️
 ==
 (![Dashboard - Dashboard](https://github.com/user-attachments/assets/396e8a67-436f-4a5a-ba3c-c2a1162d3122)
 ![Dashboard - Dashboard (2)](https://github.com/user-attachments/assets/55289e75-dd15-4205-adb4-f94e9bffac82)
@@ -53,14 +54,14 @@ Design
 
 
 
-TypeSafety
+TypeSafety🔐
 ==
 ### Ensures the data is passed correctly
 
 ![image](https://github.com/user-attachments/assets/79e303c0-8bd7-4be9-8835-46d9c9429247)
 
 
-Hooks
+Hooks 🎯
 ==
 
 - Validation using zod with TypeScript
@@ -86,7 +87,7 @@ Hooks
 ```
 
 
-## 4. Design Patterns
+## 4. Design Patterns⚗
 
 ### Barrel Exports
 
@@ -107,7 +108,7 @@ This allows for cleaner imports in other files:
 import { Button, Icon, Typography } from '../components';
 ```
 
-## 5. Components
+## 5. Components 🏗️
 ### Every components is defined using 3 files inside the component folder:
 - element.ts
 - componentName.ts
@@ -115,7 +116,7 @@ import { Button, Icon, Typography } from '../components';
 
   ![image](https://github.com/user-attachments/assets/b7a04070-6af3-4d03-bc83-f53773041672)
 
- ## 6. API Integration
+ ## 6. API Integration 👨🏻‍🏭
 
 ### The project uses Axios for making async API requests.
 
@@ -123,7 +124,7 @@ Example of an API service:
 
   ![image](https://github.com/user-attachments/assets/b4c9088c-cea3-40ee-a0cc-7a23dcd8dc72)
 
-  ## 7. State Management
+  ## 7. State Management🗃️
 
 The project uses Redux for state management. The store is configured with reducers and middleware(featuring redux-thunk and redux-logger).
 
@@ -152,7 +153,7 @@ Used to handle dispatch logic and forward it to the payload
 ![image](https://github.com/user-attachments/assets/f0c5759d-256f-4c52-a621-e62e7c63f10d)
 
 
-## 8. Styling
+## 8. Styling🎨🖌️
 
 ### The project uses styled-components for styling, along with a theme for consistent design across the application.
 
@@ -168,6 +169,15 @@ export const Heading4 = styled(({ variant , ...props }: H4Props) => (
   ${({ variant }) => variant && theme.typography.h4[variant]}
 `;
 ```
+
+Future-update features🔮⏰
+==
+
+### Nested Routes
+- Implemented using react-router-dom
+
+### Refresh + Access tokens
+- Handled with injected api endpoints to the frontEnd for better security
 
 
 
