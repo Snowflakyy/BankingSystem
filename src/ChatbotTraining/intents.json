@@ -1,0 +1,275 @@
+
+{"intents": [
+        {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon", "Hi there"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hello! What can I do for you?"],
+        "context": [""]
+        },
+        {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later", "Talk to you soon", "Thanks, bye"],
+        "responses": ["Goodbye! Have a great day.", "See you next time!", "Bye! Feel free to come back if you need more help."],
+        "context": [""]
+        },
+        {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks a lot", "Thanks", "I appreciate it", "Thanks for your help"],
+        "responses": ["You're welcome!", "Happy to help!", "No problem, glad I could assist!"],
+        "context": [""]
+        },
+        {
+        "tag": "what_is_this_site",
+        "patterns": ["What is this site for?", "What does this website do?", "What services do you provide?", "What can I do here?", "What's the purpose of this site?"],
+        "responses": ["This website is for managing your banking needs.", "You can use this site to access our bank's services.", "Our site allows you to explore banking options, accounts, and more."],
+        "context": [""]
+        },
+        {
+        "tag": "help",
+        "patterns": ["Can you help me?", "What can you help with?", "How can you assist me?", "I need assistance", "Help me, please"],
+        "responses": ["I'm here to help you with banking questions and services.", "I can assist you with account details, banking services, and general inquiries.", "How can I assist you today?"],
+        "context": [""]
+        },
+        {
+        "tag": "how_to_open_account",
+        "patterns": ["How do I open an account?", "Can I open an account here?", "How to start a new account?", "Account opening process", "Help me open an account"],
+        "responses": ["You can open a new account by...", "To open an account, follow these steps...", "Here’s how you can start the account opening process..."],
+        "context": [""]
+        },
+        {
+        "tag": "how_to_contact",
+        "patterns": ["How can I contact the bank?", "Can I reach customer service?", "How do I contact support?", "What’s the best way to contact the bank?", "Contact information for the bank"],
+        "responses": ["You can contact the bank through...", "Our customer service is available via...", "To get in touch with us, you can..."],
+        "context": [""]
+        },
+        {
+        "tag": "how_long_open",
+        "patterns": ["How long has this bank been open?", "When did the bank start?", "How old is this bank?", "Bank opening date", "When was the bank founded?"],
+        "responses": ["Our bank was established in...", "We have been in operation since...", "The bank has been serving customers since..."],
+        "context": [""]
+        },
+        {
+        "tag": "atm_locations",
+        "patterns": ["Where are your ATMs located?", "ATM locations", "Find an ATM", "Nearby ATMs", "Where can I use your ATM?"],
+        "responses": ["Our ATMs are located at...", "You can find our ATMs using...", "Here’s a list of nearby ATM locations..."],
+        "context": [""]
+        },
+        {
+        "tag": "how_secure",
+        "patterns": ["Is this site secure?", "How secure is your website?", "Can I trust the security of this site?", "Is my information safe here?", "Website security details"],
+        "responses": ["Yes, our website uses advanced security measures to protect your data.", "We prioritize your security with...", "Your information is secure with our encryption and safety protocols."],
+        "context": [""]
+        },
+        {
+        "tag": "forgot_password",
+        "patterns": ["I forgot my password", "How can I reset my password?", "Forgot password process", "Reset password", "Help me recover my password"],
+        "responses": ["You can reset your password by following these steps...", "To recover your password, visit...", "Here’s how you can reset your password..."],
+        "context": [""]
+        },
+        {
+        "tag": "business_hours",
+        "patterns": ["What are your business hours?", "When is the bank open?", "Bank working hours", "What time do you open?", "When do you close?"],
+        "responses": ["Our business hours are...", "We’re open from... to...", "The bank operates from..."],
+        "context": [""]
+        },
+        {
+        "tag": "services_offered",
+        "patterns": ["What services do you provide?", "Tell me about the services you offer", "What can I do at this bank?", "Bank services", "Do you offer financial services?"],
+        "responses": ["We offer services such as...", "Our banking services include...", "You can access services like..."],
+        "context": [""]
+        },
+        {
+        "tag": "location",
+        "patterns": ["Where is the bank located?", "What’s your bank address?", "Where can I find your bank?", "Bank location", "Tell me the address of the bank"],
+        "responses": ["Our bank is located at...", "You can find us at the following address...", "We are located at..."],
+        "context": [""]
+        },
+        {
+        "tag": "fees",
+        "patterns": ["What fees do you charge?", "Are there any fees?", "Banking fees", "How much do I have to pay for fees?", "Tell me about your fees"],
+        "responses": ["Our fees include...", "We charge fees for services such as...", "The banking fees depend on the service and account type."],
+        "context": [""]
+        },
+        {
+        "tag": "mobile_app",
+        "patterns": ["Do you have a mobile app?", "Can I use mobile banking?", "How can I access the mobile app?", "Mobile banking app details", "Where can I download your app?"],
+        "responses": ["Yes, we have a mobile app available for download at...", "You can access our mobile app by...", "Here’s how to download our mobile banking app..."],
+        "context": [""]
+        },
+        {
+        "tag": "site_navigation",
+        "patterns": ["How do I navigate this site?", "I need help using the site", "How to use this website", "Navigating your website", "Help me use the site"],
+        "responses": ["You can use the navigation bar to...", "Here’s how to find what you’re looking for on the site...", "To navigate the site, follow these steps..."],
+        "context": [""]
+        },
+        {
+        "tag": "currency_exchange",
+        "patterns": ["Do you offer currency exchange?", "Can I exchange currency here?", "Currency exchange services", "How do I exchange foreign currency?", "Exchange currency at the bank"],
+        "responses": ["Yes, we offer currency exchange services.", "You can exchange foreign currency by...", "Our currency exchange services include..."],
+        "context": [""]
+        },
+        {
+        "tag": "branch_finder",
+        "patterns": ["Where is the nearest branch?", "Find a branch near me", "How do I locate a branch?", "Nearest bank branch", "Branch locations"],
+        "responses": ["You can find the nearest branch at...", "Our branch locator can be found at...", "The closest branch to you is located at..."],
+        "context": [""]
+        },
+        {
+        "tag": "report_issue",
+        "patterns": ["How do I report an issue?", "I want to report a problem", "Report a technical issue", "There’s a problem with the site", "Report an issue with my account"],
+        "responses": ["You can report issues by contacting...", "To report a problem, follow these steps...", "Please reach out to us to report issues at..."],
+        "context": [""]
+        },      
+        {
+        "tag": "minimum_balance",
+        "patterns": ["What is the minimum balance for an account?", "How much do I need to keep in my account?", "Minimum balance requirement", "Required balance to avoid fees"],
+        "responses": ["The minimum balance for accounts is...", "You need to maintain a balance of... to avoid fees", "The minimum balance requirement is..."],
+        "context": [""]
+        },
+        {
+        "tag": "working_hours",
+        "patterns": ["What are the bank's working hours?", "What time does the bank open?", "When do you close?", "Bank opening hours", "Operating hours"],
+        "responses": ["Our bank is open from... to...", "We operate between... on weekdays", "The bank's working hours are..."],
+        "context": [""]
+        },
+        {
+        "tag": "branch_locations",
+        "patterns": ["Where are your branches located?", "Can I find a branch near me?", "List of branch locations", "Where is the nearest bank branch?", "Bank branch locations"],
+        "responses": ["You can find our branches at...", "Here’s a list of our branch locations...", "You can locate a branch by visiting our website..."],
+        "context": [""]
+        },
+        {
+        "tag": "services_offered",
+        "patterns": ["What services does the bank offer?", "Can you tell me the bank's services?", "List of bank services", "Services provided by the bank"],
+        "responses": ["We offer a range of services including...", "Our bank provides services like...", "Here are the services we offer..."],
+        "context": [""]
+        },
+        {
+        "tag": "debit_card_fees",
+        "patterns": ["What are the fees for using a debit card?", "Are there charges for debit card usage?", "Debit card fees", "Debit card usage charges"],
+        "responses": ["There are fees for debit card usage in certain situations...", "Our debit card fees include...", "Here’s the information on debit card charges..."],
+        "context": [""]
+        },
+        {
+        "tag": "foreign_transaction_fees",
+        "patterns": ["What are your foreign transaction fees?", "Do you charge for international transactions?", "Foreign transaction charges", "Fees for using the card abroad"],
+        "responses": ["We charge... for foreign transactions", "Our foreign transaction fees are...", "You will be charged... for international transactions"],
+        "context": [""]
+        },
+        {
+        "tag": "currency_exchange",
+        "patterns": ["Do you offer currency exchange services?", "Can I exchange foreign currency?", "Currency exchange options", "How do I exchange currency?", "Foreign currency exchange"],
+        "responses": ["Yes, we offer currency exchange services", "You can exchange currency by visiting...", "We provide currency exchange at our branches..."],
+        "context": [""]
+        },
+        {
+        "tag": "investment_plans",
+        "patterns": ["What investment plans does the bank offer?", "Tell me about your investment options", "What can I invest in through the bank?", "Investment products available", "List of investment options"],
+        "responses": ["We offer the following investment plans...", "Our investment products include...", "You can invest in... through our bank"],
+        "context": [""]
+        },
+        {
+        "tag": "loan_types",
+        "patterns": ["What types of loans do you offer?", "Can I get a list of loan options?", "Types of loans available", "What loan products does the bank offer?"],
+        "responses": ["We offer various loan types including...", "Our loan products include...", "You can apply for loans such as..."],
+        "context": [""]
+        },
+        {
+        "tag": "fixed_deposit",
+        "patterns": ["What is a fixed deposit?", "Tell me about fixed deposits", "How does a fixed deposit work?", "Fixed deposit details", "Explain fixed deposit"],
+        "responses": ["A fixed deposit is a type of investment where...", "You can open a fixed deposit account by...", "Fixed deposits offer..."],
+        "context": [""]
+        },
+        {
+        "tag": "interest_calculation",
+        "patterns": ["How is interest calculated on savings accounts?", "Can you explain interest calculation?", "Savings account interest details", "How do I earn interest?", "Interest calculation methods"],
+        "responses": ["Interest on savings accounts is calculated by...", "We calculate interest using...", "You earn interest based on..."],
+        "context": [""]
+        },
+        {
+        "tag": "online_banking",
+        "patterns": ["How does online banking work?", "What is online banking?", "Can I use online banking?", "Explain the online banking service", "Online banking options"],
+        "responses": ["Online banking allows you to manage your account from anywhere...", "Our online banking service offers...", "You can sign up for online banking through..."],
+        "context": [""]
+        },
+        {
+        "tag": "mobile_app",
+        "patterns": ["Does the bank have a mobile app?", "Can I manage my account through a mobile app?", "Banking mobile app details", "How can I download your app?", "Do you offer mobile banking?"],
+        "responses": ["Yes, we have a mobile app available for download on...", "You can manage your account using our mobile app", "Our mobile app allows you to..."],
+        "context": [""]
+        },
+        {
+        "tag": "fdic_insurance",
+        "patterns": ["Is my money insured by the FDIC?", "What is FDIC insurance?", "Do you offer FDIC insurance?", "Is my account FDIC insured?", "FDIC insurance coverage"],
+        "responses": ["Yes, your deposits are insured by the FDIC up to...", "We provide FDIC insurance on eligible accounts", "FDIC insurance protects your deposits up to..."],
+        "context": [""]
+        },
+        {
+        "tag": "deposit_methods",
+        "patterns": ["How can I deposit money into my account?", "What are the deposit methods?", "Deposit options", "Ways to deposit money", "How do I make a deposit?"],
+        "responses": ["You can deposit money through...", "Our deposit methods include...", "You can make a deposit by..."],
+        "context": [""]
+        },
+        {
+        "tag": "recurring_payments",
+        "patterns": ["Can I set up recurring payments?", "How do I schedule recurring payments?", "Recurring payment setup", "Automatic payments", "Setting up recurring transfers"],
+        "responses": ["You can set up recurring payments by...", "We offer a feature for scheduling automatic payments", "Here’s how to set up recurring payments..."],
+        "context": [""]
+        },
+        {
+        "tag": "security_measures",
+        "patterns": ["What security measures does the bank have?", "How secure is online banking?", "Bank security features", "Security measures to protect my account", "How do you protect my account?"],
+        "responses": ["We implement various security measures such as...", "Your account is protected by...", "We use encryption and multi-factor authentication for security"],
+        "context": [""]
+        },
+        {
+        "tag": "loan_repayment",
+        "patterns": ["How do I repay my loan?", "Loan repayment options", "Ways to repay my loan", "Loan payment methods", "How can I pay back my loan?"],
+        "responses": ["You can repay your loan by...", "We offer the following loan repayment methods...", "You can make loan payments through..."],
+        "context": [""]
+        },
+        {
+        "tag": "credit_limit_increase",
+        "patterns": ["How can I increase my credit limit?", "Requesting a credit limit increase", "How do I apply for a credit limit raise?", "Credit card limit increase process", "Can I get a higher credit limit?"],
+        "responses": ["You can request a credit limit increase by...", "We offer credit limit increases under certain conditions", "Here’s how to apply for a higher credit limit..."],
+        "context": [""]
+        },
+        {
+        "tag": "contact_support",
+        "patterns": ["How do I contact customer support?", "Can I get help from customer service?", "Support contact options", "How do I reach customer support?", "Bank customer service contact"],
+        "responses": ["You can contact our customer support team by...", "Here’s how to reach our customer service...", "Our support team is available at..."],
+        "context": [""]
+        },
+        {
+        "tag": "business_account",
+        "patterns": ["Can I open a business account?", "How do I set up a business account?", "Business banking options", "Business account details", "What do I need to open a business account?"],
+        "responses": ["You can open a business account by...", "We offer business banking services including...", "Here’s how to start a business account..."],
+        "context": [""]
+        },
+        {
+        "tag": "card_activation",
+        "patterns": ["How do I activate my new card?", "Can I activate my debit card?", "Card activation process", "How do I activate my credit card?", "Steps to activate my bank card"],
+        "responses": ["You can activate your card by...", "Here’s how to activate your new debit or credit card", "You can use our phone or online service to activate your card"],
+        "context": [""]
+        },
+        {
+        "tag": "account_types",
+        "patterns": ["What types of accounts do you offer?", "Can you tell me about the different account options?", "Types of accounts available", "What account types can I choose from?"],
+        "responses": ["We offer several types of accounts including...", "You can choose from the following account types...", "Our bank offers..."],
+        "context": [""]
+        },
+        {
+        "tag": "account_freeze",
+        "patterns": ["How do I freeze my account?", "Can I freeze my account temporarily?", "Account freeze process", "Freeze my bank account", "How to freeze account?"],
+        "responses": ["You can freeze your account by...", "We can temporarily freeze your account for security", "Here’s how to initiate an account freeze..."],
+        "context": [""]
+        },
+        {
+        "tag": "deposit_timeframe",
+        "patterns": ["How long does it take for a deposit to process?", "Deposit processing time", "When will my deposit be available?", "How fast are deposits cleared?", "Deposit clearance time"],
+        "responses": ["Deposits typically take... to process", "Your deposit will be available within...", "The deposit processing timeframe is..."],
+        "context": [""]
+        }
+]
+}
+      
